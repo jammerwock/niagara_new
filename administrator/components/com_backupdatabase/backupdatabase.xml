@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <extension type="component" version="2.5">
+    <name>Backup Database</name>
+    <extensionname>Backup Database</extensionname>
+    <author>Iacopo Guarneri</author>
+    <creationDate>29/06/2012</creationDate>
+    <license>GNU/GPL</license>
+    <authorEmail>iacopo.guarneri@alice.it</authorEmail>
+    <authorUrl>http://www.the-html-tool.com/</authorUrl>
+    <version>1.0</version>
+    <description></description>
+   
+	<administration>
+	<menu link="com_backupdatabase">Backup Database</menu>
+ 
+   <files folder="administrator">
+		<filename>backupdatabase.php</filename>
+		<filename>index.html</filename>
+    </files>
+    </administration>
+</extension>
