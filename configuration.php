@@ -16,6 +16,10 @@ class JConfig {
     public $user = 'root';
     public $password = '12345';
     public $db = 'niagdb';
+//    public $host = 'db14.freehost.com.ua';
+//    public $user = 'grimdark_main';
+//    public $password = 'Y8qiheQZp';
+//    public $db = 'grimdark_main';
     public $dbprefix = 'hgd35_';
     public $live_site = '';
     public $secret = 'hloADwCZE6eLLFcb';
@@ -55,6 +59,8 @@ class JConfig {
     public $feed_limit = '10';
     public $log_path = '/Users/Aizen/Sites/test.dev/niagara_new/logs';
     public $tmp_path = '/Users/Aizen/Sites/test.dev/niagara_new/tmp';
+//    public $log_path = '/home/grimdark/logs';
+//    public $tmp_path = '/home/grimdark/tmp';
     public $lifetime = '150';
     public $session_handler = 'database';
 }

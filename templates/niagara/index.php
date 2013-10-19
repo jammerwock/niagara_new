@@ -29,6 +29,8 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php'; // load logic.php
   <!-- 
     YOUR CODE HERE
   -->
+  <jdoc:include type="modules" name="mainmenu" />
+  <jdoc:include type="modules" name="breadcrumb" />
   <jdoc:include type="modules" name="debug" />
 </body>
 
